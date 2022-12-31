@@ -1,0 +1,329 @@
+
+nav .outernul{
+  list-style: none;
+  margin-left: 20px;
+}
+
+.outernul li{
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.outernul li a{
+  text-decoration: none;
+  color: gray;
+}
+
+.outernul li button{
+  background: none;
+  border: none;
+  outline: none;
+  color: gray;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.outernul li button:hover,.outernul li a:hover{
+  color: black;
+}
+
+.outernul li:first-child{
+  border-bottom: 3px solid black;
+}
+
+.outernul li:first-child a{
+  color: black;
+}
+
+nav .outernul span{
+  position: relative;
+  top: 2px;
+}
+
+nav{
+  background-color: white;
+}
+
+.outerdiv{
+  position: absolute;
+  background-color: #dfdbdb;
+  top:35px;
+  width: 134px;
+  color: gray;
+  z-index: 2;
+}
+
+.outerdiv div{
+  padding: 10px 20px;
+}
+
+.outerdiv div:not(:last-child){
+  border-bottom: 1px solid black;
+}
+
+.contentdiv{
+  margin: 10px 20px;
+}
+
+.headerdiv{
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.headerdiv a{
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+
+.headerdiv a span{
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+  z-index: 1;
+}
+
+.headerdiv a:hover,.headerdiv button:hover{
+  background-color: #d3d3d369;
+  border-radius: 15px;
+}
+
+.hotlink{
+  background-color: #d3d3d369;
+  color: black!important;
+  border-radius: 15px;
+}
+
+.headerdiv button{
+  background:none;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.headerinnerdiv{
+  position: absolute;
+  background-color: white;
+  color: gray;
+  z-index: 1;
+  padding: 10px 20px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 2px 8px;
+  border-radius: 4px;
+  width: 114px;
+}
+
+.startpart{
+  display: inline-block;
+  width: 70%;
+}
+
+.endpart{
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+
+#mode{
+  outline: none;
+  padding: 9px 9px;
+  width: 100px;
+  color: gray;
+  font-weight: bold;
+  border: none;
+  background-color: #e5e2e2;
+  border-radius: 15px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.carddiv{
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+}
+
+.cardsdiv{
+  margin-top: 20px;
+}
+
+#mobileview{
+  display: inline-block;
+}
+
+.scorepanel{
+  display: inline-block;
+  width: 40px;
+  padding: 10px;
+  padding-left: 8px;
+  background-color: #f5f5f5;
+  height: 100%;
+  border-bottom-right-radius: 10px;
+}
+
+.datapanel{
+  display: inline-block;
+  width: calc(100%-50px);
+  padding:10px;
+}
+
+.scorepanel div{
+  text-align: center;
+}
+
+.scorepanel div button{
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: gray;
+  font-size: 26px;
+  
+}
+
+.headline{
+  margin-bottom: 5px;
+}
+
+.headline span{
+  font-weight: bold;
+}
+.footerpanel div{
+  display: inline-block;
+}
+
+.footerpanel div a{
+  text-decoration: none;
+  color: gray;
+  transition: all ease-in-out 0.2s;
+}
+
+
+
+.footerpanel div a span{
+  position: relative;
+  top:3px;
+  margin-right: 2px;
+}
+
+.footerpanel{
+  margin: 10px 2px;
+  color: gray;  
+}
+
+.footerpanel button{
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: gray;
+  margin: 0px 15px;
+  transition: all ease-in-out 0.2s;
+}
+
+.footerpanel button:hover{
+  background-color: lightgray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.footerpanel div a:hover{
+  background-color: lightgray;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.footerpanel button span{
+  margin-right: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.url_overriden a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.url_overriden a:hover{
+  text-decoration: underline;
+}
+
+.url_overriden a span{
+  position: relative;
+  top:2px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.title_des{
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 5px;
+}  
+
+@media only screen and (max-width:768px) {
+  #mobileview{
+    display: none;
+  }
+
+  #mode{
+    padding: 6px;
+    position: relative;
+    top: -3px;
+    width: 88px;
+  }
+
+}
+
+@media only screen and (max-width:500px) {
+  .contentdiv{
+    margin: 5px 10px;
+  }
+}
+
+@media only screen and (max-width:460px) {
+  .contentdiv{
+    margin: 2px 5px;
+  }
+}
+
+@media only screen and (max-width:440px) {
+  .contentdiv{
+    margin: 0px 0px;
+  }
+}
+
+
+@media only screen and (max-width:425px) {
+  .contentdiv,.App nav{
+    width:102%;
+  }
+  
+}
+
+@media only screen and (max-width:375px) {
+  .contentdiv,.App nav{
+    width:116%;
+  }
+  
+}
+
+@media only screen and (max-width:320px) {
+  .contentdiv,.App nav{
+    width:135%;
+  }
+  
+}
