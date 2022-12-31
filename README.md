@@ -1,6 +1,7 @@
 # clone nextjs page (React App)
 (https://www.reddit.com/r/nextjs)
 
+##Live-demo (https://nextjs-clone.netlify.app)
 
 # Getting Started with Create React App
 
